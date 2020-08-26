@@ -1,0 +1,18 @@
+{
+  "name": "finchatbot",
+  "version": "1.0.0",
+  "description": "realtime chat for finchatbot assessment",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Sipho",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

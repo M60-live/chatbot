@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FinChatBot</title>
+
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+
+    <body>
+        <div id="messageContainer"></div>
+        <div class="form-container">
+            <form id="form">
+                <input type="text" id="form-input" class="form-control" />
+                <button type="submit" class="btn">send</button>
+            </form>
+        </div>
+
+        <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script defer src="chat.js"></script>
+    </body>
+</html>
